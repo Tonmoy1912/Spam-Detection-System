@@ -62,9 +62,9 @@ def get_data():
 @app.route('/predict', methods=['POST'])
 def predict():
     body=json.loads(request.data)
-    print(body)
+    # print(body)
     result=get_prediction_result(body['message'])
-    print(result)
+    # print(result)
     return {"result":result}
     # return {"result":"ham"}
     # return {"result":"spam"}
