@@ -47,7 +47,7 @@ function FormComponent(){
 
     return <Fragment>
       <div className='mt-5 flex flex-col gap-6 items-center'>
-          <form className='flex flex-col gap-4 w-1/2 h-auto border-2 border-black rounded-md p-4 bg-slate-200'>
+          <form className='flex flex-col gap-4 w-4/5 sm:w-3/4 md:w-1/2 h-auto border-2 border-black rounded-md p-4 bg-slate-200'>
               <label htmlFor="msg" className='font-semibold text-xl' >Spam Detection</label>
               <textarea type="text" className='border-1 border-black p-2' id='msg' value={message} placeholder='Enter the message' rows={15} onChange={handleChange} />
 
