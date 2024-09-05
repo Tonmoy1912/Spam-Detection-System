@@ -8,7 +8,7 @@ import {useEffect } from 'react'
 const host=""
 
 function App() {
-  return <div className='h-screen w-screen m-0 p-4 bg-black'>
+  return <div className='min-h-screen w-screen m-0 p-4 bg-black'>
     {/* <TestComponent/> */}
     <FormComponent/>
   </div>
